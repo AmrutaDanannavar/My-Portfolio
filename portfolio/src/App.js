@@ -28,7 +28,6 @@ function App() {
       <section id="projects">
         <Projects/>
       </section>
-      <br/>
       <section id="contact">
         <Contact/>
       </section>
