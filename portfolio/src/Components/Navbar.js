@@ -7,9 +7,9 @@ const Navbar = () => {
     
     return (
         <div>
-            <div className='flex justify-between items-center w-full  h-20 bg-slate-900 text-white pl-4 fixed top-0 '>
+            <div className='flex justify-between items-center w-full  h-20 bg-pink-400 text-black pl-4 fixed top-0 '>
                 <h1 className='text-4xl font-mono '>Amruta</h1>
-                <ul className='flex gap-6  pr-4 hidden md:flex '>
+                <ul className='flex gap-6  text-xl pr-4 hidden md:flex '>
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#education">Education & Experience</a>
@@ -21,7 +21,7 @@ const Navbar = () => {
 
                 </div>
                 {nav && (
-                    <ul className='flex flex-col  justify-center items-center fixed top-0 left-0 w-full h-screen bg-slate-900 '>
+                    <ul className='flex flex-col  justify-center items-center fixed top-0 left-0 w-full h-screen bg-pink-400 '>
                         <a href="#home" onClick={()=> setNav(!nav)}>Home</a>
                         <a href="#about" onClick={()=> setNav(!nav)}>About</a>
                         <a href="#education" onClick={()=> setNav(!nav)}>Education & Experience</a>

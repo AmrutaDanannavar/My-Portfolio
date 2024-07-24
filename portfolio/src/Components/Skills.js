@@ -40,12 +40,12 @@ const Skills = () => {
         }
     ]
   return (
-    <div className='mt-20 '>
-        <div className='p-4'> 
-            <h1 className='pb-4 pt-28 text-4xl font-bold text-white'>Skills</h1>
+    
+        <div className='mt-20 px-4 md:px-4'> 
+            <h1 className='pb-4 pt-16 text-3xl md:text-4xl font-bold text-black text-center'>Skills</h1>
             <div className='flex flex-col gap-2 flex-wrap text-white md:flex-row'>
              {skills.map((skill)=>(
-                <div className='  w-96  h-44 border bg-slate-900 '>
+                <div className='  w-96  h-44 border bg-pink-900 '>
                     <div className='flex flex-row gap-40 pl-4 pt-2'>
                         <h3 className='text-xl font-semibold'>{skill.name}</h3>
                         <img src={skill.image} className='w-12 h-12 ml-14'/>
@@ -57,7 +57,7 @@ const Skills = () => {
              ))} 
             </div>    
         </div>
-    </div>
+    
   )
 }
 

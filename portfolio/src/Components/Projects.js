@@ -25,12 +25,12 @@ const Projects = () => {
   ]
   return (
 
-    <div className='mt-20 '>
+    <div className='mt-20 px-14 md:px-4'>
         <div className=''>
-            <h1 className='pb-4  pt-24 text-4xl text-white font-bold pl-14'>Projects</h1>
+            <h1 className='pb-4 pt-16 text-3xl md:text-4xl font-bold text-black text-center'>Projects</h1>
             <div className='flex flex-col  gap-20 justify-center pt-7 md:flex-row '>
                 {projects.map((project)=>(
-                  <div className='w-80 h-80 border  rounded bg-slate-900'>
+                  <div className='w-80 h-80 border  rounded bg-pink-900'>
                     <img  className="p-4 " src={project.image}/>
                     <h1 className='text-2xl  text-white pt-4 pl-4'>{project.name}</h1>
                     <h2 className='text-xl text-gray-500 pt-4 pl-4'>{project.desc}</h2>   
